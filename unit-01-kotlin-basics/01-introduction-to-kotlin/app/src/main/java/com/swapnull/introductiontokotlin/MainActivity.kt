@@ -28,8 +28,8 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-        main()
-
+        //main()
+        birthdayMessage()
     }
 }
 
@@ -37,6 +37,25 @@ fun main() {
     println("Happy Birthday!")
     println("Jhansi")
     println("You are 25!")
+}
+
+fun birthdayMessage() {
+
+    println("Happy Birthday, Rover!")
+
+    // Let's print a cake!
+    println("   ,,,,,   ")
+    println("   |||||   ")
+    println(" =========")
+    println("@@@@@@@@@@@")
+    println("{~@~@~@~@~}")
+    println("@@@@@@@@@@@")
+
+    // This prints an empty line.
+    println("")
+
+    println("You are already 5!")
+    println("5 is the very best age to celebrate!")
 }
 
 @Composable
