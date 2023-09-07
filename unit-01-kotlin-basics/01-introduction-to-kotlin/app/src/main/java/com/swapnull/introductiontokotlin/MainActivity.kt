@@ -41,7 +41,10 @@ fun main() {
 
 fun birthdayMessage() {
 
-    println("Happy Birthday, Rover!")
+    var name = "Rover"
+    val age = 5 * 365
+
+    println("Happy Birthday, ${name}!")
 
     // Let's print a cake!
     println("   ,,,,,   ")
@@ -54,8 +57,8 @@ fun birthdayMessage() {
     // This prints an empty line.
     println("")
 
-    println("You are already 5!")
-    println("5 is the very best age to celebrate!")
+    println("You are already ${age} days old, ${name}!")
+    println("${age} is the very best age to celebrate!")
 }
 
 @Composable
