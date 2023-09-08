@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         }
 
         //main()
-        birthdayMessage()
+        printBirthdayMessage()
     }
 }
 
@@ -39,7 +39,8 @@ fun main() {
     println("You are 25!")
 }
 
-fun birthdayMessage() {
+/*
+fun printBirthdayMessage() {
 
     var name = "Rover"
     val age = 5 * 365
@@ -59,6 +60,23 @@ fun birthdayMessage() {
 
     println("You are already ${age} days old, ${name}!")
     println("${age} is the very best age to celebrate!")
+}
+ */
+
+fun printBirthdayMessage() {
+    val border = "`-._,-'"
+    val timesToRepeat = 4
+
+    printBorder(border, timesToRepeat)
+    println("  Happy Birthday, Jhansi!")
+    printBorder(border, timesToRepeat)
+}
+
+fun printBorder(border: String, timesToRepeat: Int) {
+    repeat(timesToRepeat) {
+        print(border)
+    }
+    println()
 }
 
 @Composable
