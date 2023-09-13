@@ -31,3 +31,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
+unit-01-kotlin-basics/04-add-button-to-app/DiceRoller/build.gradle
